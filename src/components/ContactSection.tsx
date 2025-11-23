@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import { FaDribbble, FaGoogle, FaInstagram } from "react-icons/fa";
 import ScrollReveal from "./ScrollReveal";
-
 const ContactSection = () => {
   return (
     <section id="contact" className="py-24 relative">
