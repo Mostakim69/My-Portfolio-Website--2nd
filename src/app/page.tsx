@@ -1,3 +1,4 @@
+import ContactSection from "@/components/ContactSection";
 import HereSection from "@/components/HereSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TechStack from "@/components/TechStack";
@@ -11,6 +12,7 @@ const Home = () => {
         <WorkExperience />
         <TechStack />
         <ProjectsSection />
+        <ContactSection />
       </main>
     </>
   );
