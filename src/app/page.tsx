@@ -1,4 +1,5 @@
 import HereSection from "@/components/HereSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import TechStack from "@/components/TechStack";
 import WorkExperience from "@/components/WorkExperience";
 
@@ -9,6 +10,7 @@ const Home = () => {
         <HereSection />
         <WorkExperience />
         <TechStack />
+        <ProjectsSection />
       </main>
     </>
   );
