@@ -1,4 +1,5 @@
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 import HereSection from "@/components/HereSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TechStack from "@/components/TechStack";
@@ -13,6 +14,7 @@ const Home = () => {
         <TechStack />
         <ProjectsSection />
         <ContactSection />
+        <Footer />
       </main>
     </>
   );
