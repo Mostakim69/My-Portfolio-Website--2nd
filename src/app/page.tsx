@@ -1,9 +1,13 @@
-import React from 'react'
+import HereSection from "@/components/HereSection";
 
-export default function page() {
+const Home = () => {
   return (
-    <div>
-      <h3>hello developer</h3>
-    </div>
-  )
-}
+    <>
+      <main className="max-w-7xl mx-auto px-6 lg:px-8">
+        <HereSection />
+      </main>
+    </>
+  );
+};
+
+export default Home;
