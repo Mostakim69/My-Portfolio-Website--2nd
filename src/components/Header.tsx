@@ -13,9 +13,17 @@ const Header = () => {
   }, []);
 
   return (
-    <div>
-      <header>Header pages</header>
-    </div>
+    
+ <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
+        isScrolled || isOpen
+          ? "bg-[#0b0416]/70 backdrop-blur-md shadow-[0_0_40px_rgba(113, 39, 186, 0.20)]"
+          : "bg-transparent"
+      }`}
+    >
+
+      
+    </header>    
   );
 };
 
