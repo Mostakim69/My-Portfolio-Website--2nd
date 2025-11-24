@@ -115,6 +115,13 @@ const Header = () => {
             >
               Contact
             </Link>
+            <Link
+              href="#contact"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#a855f7] transition duration-200"
+            >
+              Resume
+            </Link>
           </div>
         </div>
       )}
