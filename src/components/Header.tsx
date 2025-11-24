@@ -60,6 +60,12 @@ const Header = () => {
           >
             Contact
           </Link>
+          <Link
+            href="#contact"
+            className="hover:text-[#a855f7] transition duration-200"
+          >
+            Resume
+          </Link>
         </nav>
 
         <button
